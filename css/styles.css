@@ -1,5 +1,4 @@
 
-
 /* .guia {
     position: absolute;
     top: 0;
@@ -215,3 +214,36 @@ body {
 .details-wrapper p {
     line-height: 1.7;
 }
+
+@media screen and (max-width: 700px) {
+    /* .guia {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.5;
+      z-index: 1;
+    } */
+    body {
+      width: 375px;
+    }
+    .purple-shape {
+      right: 300px;
+      width: 500px;
+      height: 505px;
+    }
+    
+    .mobile {
+      top: 65px;
+      left: 4em;
+    }
+    
+    .details-wrapper {
+      width: 310px;
+      text-align: center;
+      position: absolute;
+      top: 610px;
+      right: 150px;
+    }
+  }
