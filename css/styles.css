@@ -237,11 +237,17 @@ body {
 @media screen and (max-width: 500px) {
     body {
         max-width: 375px;
+        height: 1000px;
         margin: auto;
     }
     .container {
         display: block;
-        height: 1500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 1040px;
     }
     .purple-shape {
         width: 500px;
@@ -252,13 +258,14 @@ body {
         border-bottom-left-radius: 250px;
     }
     .pink-shape {
-        width: 500px;
-        height: 620px;
-        margin-top: -500px;
+        width: 200px;
+        height: 550px;
+        margin-top: -430px;
+        margin-left: 175px;
         position: relative;
-        right: -12em;
+        right: 0;
         background-color: hsl(276, 55%, 52%, .1);
-        border-top-right-radius: 250px;
+        border-top-right-radius: 0px;
         border-top-left-radius: 250px;
         z-index: 1;
     }
